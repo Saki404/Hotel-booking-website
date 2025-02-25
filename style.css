@@ -1,0 +1,134 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  padding: 5rem, 3rem;
+  width: 98%;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: url(./img/p15.jpg);
+  height: 90vh;
+  margin: 3rem;
+  padding: 2rem;
+  margin-bottom: 0;
+}
+
+.header {
+  padding: 0, 50rem;
+}
+
+.maxima-hospitalidad {
+  text-transform: uppercase;
+  color: white;
+  padding-left: 35%;
+  backface-visibility: hidden;
+}
+
+.maxima-hospitalidad-main {
+  padding-right: 0.2rem;
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 2.5rem;
+}
+
+.maxima-hospitalidad-sub {
+  padding-right: 0.6rem;
+  padding-bottom: 0.1rem;
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 1.98rem;
+}
+
+.lugar-descano {
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+  font-weight: 300;
+  padding-left: 23%;
+  position: absolute;
+}
+
+.el-lugar-main {
+  font-size: 14rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.el-lugar-sub {
+  font-size: 14rem;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  position: relative;
+  bottom: 9rem;
+}
+
+.button {
+  position: relative;
+  left: 87%;
+  top: 75%;
+  padding: 0.8rem, 2rem;
+ 
+}
+
+.cta-button {
+  text-transform: uppercase;
+  text-decoration: none;
+  /* padding: 8px, 20px; */
+  background-color: transparent;
+  color: white;
+  border: none;
+ 
+}
+
+.cta-button:hover{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgb(168, 162, 162);
+  border-radius: 4rem;
+}
+
+
+
+.second-page-button{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-color: #777;
+  border-radius: 3rem;
+  position: relative;
+  top: 33rem;
+  left: 50rem;
+}
+
+.second-page-button:hover{
+  background-color: rgb(190, 178, 178);
+  color: black;
+  padding-top: 2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 2rem;
+}
+

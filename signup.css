@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem;
+}
+
+input[type="text"],
+input[type="password"], input[type="email"] {
+  width: 40rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 0.1rem solid #ccc;
+  text-transform: uppercase;
+  display: flex;
+  border-radius: 2rem;
+  position: relative;
+  left: 19rem;
+  top: -1.3rem;
+}
+
+form {
+  padding: 3rem;
+}
+
+.log-in {
+  padding: 1rem 9rem;
+  background-color: #4caf50;
+  border-radius: 4rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.log-in:hover {
+  padding: 1.2rem 4rem;
+  background-color: #769f78;
+  border-radius: 4rem;
+  color: white;
+}
+
+p {
+  font-size: 2rem;
+  padding: 2rem 1rem;
+}
+
+.signup {
+  text-decoration: none;
+  color: rgba(141, 134, 134, 0.995);
+  cursor: grab;
+}
